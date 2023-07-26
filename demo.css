@@ -1,0 +1,223 @@
+header{
+    margin: 0px;
+    padding: 0px;
+    height: 35px;
+}
+
+.h1{
+    width: 100%;
+    height: 35px;
+}
+.container{
+    background-color: black;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+}
+#menu li a{
+    padding: 5px 15px;
+}
+#menu li, a {
+    text-decoration: none;
+    color: white;
+}
+
+.lo123{
+    text-align: center;
+}
+
+.lo123 i{
+    color: yellow;
+    font-size: 20px; 
+    margin: 0 0 0 8px;
+}
+
+.lo123 span{
+    font-weight: bold;
+}
+.search{
+    position: relative;
+}
+.search i{
+    position: absolute;
+    font-size: 20px;
+    right: 10px;
+    color: black;
+    line-height: 30px;
+    cursor: pointer;
+   
+}
+.search-box{
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.cart button{
+    height: 30px;
+    padding: 0 12px;
+    cursor: pointer;
+    border: 1px solid rgb(117, 107, 107);
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    transition: all 0.3 ease;
+}
+.cart button i{
+    margin-right: 6px;
+}
+
+.cart button:hover{
+    background-color: rgb(130, 126, 126);
+}
+
+.box1{
+    border-radius: 5px;
+}
+
+.box1 i{
+    margin-right: 30px;
+}
+
+.box1 :hover{
+    background-color: rgb(163, 161, 160);
+}
+
+
+.menu-bar-content{
+    background-color: rgb(38, 42, 42);
+}
+
+#menu-bar{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0px 0px;
+}
+
+#menu-bar li{
+    padding: 20px 10px;
+    background-color: rgb(38, 42, 42);
+    transition: all 0.2 ease;
+    width: 100%;
+}
+#menu-bar li a {
+    margin: 5px;
+    padding: 5px;
+    padding-left: 15px;
+    
+}
+#menu-bar li a i {
+    margin-right: 5px;
+}
+
+#menu-bar li:hover{
+    background-color: rgb(84, 93, 93);
+}
+.sale{
+    position: relative;
+}
+
+.sale::before{
+    position: absolute;
+    content: "Giảm 10%";
+    display: block;
+    height: 11px;
+    width: 45px;
+    background-color: red;
+    border-radius: 10px;
+    right: 10px;
+    top: 8px;
+    font-size: 9px;
+    padding-left: 3px;
+    color: white;
+    font-weight: bold;
+} 
+
+#menu-bar li a.call{
+    padding-left: 40px;
+}
+
+.address-form{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #333;
+    display: none;
+    z-index: 999;
+}
+
+.address-form-content{
+    width: 450px;
+    height: 420px;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+}
+.address-form-content form {
+    padding: 10px 40px;
+}
+
+.address-form-content h2 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #a6a6a6;
+    position: relative;
+    padding: 10px;
+}
+.address-form-content h2 span{
+    display: block;
+    position: absolute;
+    height: 30px;
+    padding: 0 6px;
+    border: 1px solid #878787;
+    right: 12px;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 30px;
+    color: #4834ca;
+    border-radius: 5px;
+}
+
+.address-form-content form p{
+    font-size: 16px;
+}
+.address-form-content form input,select {
+    height: 45  px;
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.address-form-content form button{
+    margin-top: 30px;
+    height: 40px;
+    width: 80%;
+    background-color: orange;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
